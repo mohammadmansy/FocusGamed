@@ -28,8 +28,10 @@ public class scoreMansger : MonoBehaviour
         score +=5;
         scoreText.text = score.ToString() + " POINTS";
         if (highScore < score)
+        {
             PlayerPrefs.SetInt("highScore", score);
-        highScoreText.text = "High Score:" + score.ToString();
+            highScoreText.text = "High Score:" + score.ToString();
+        }
 
     }
     private void Awake()
