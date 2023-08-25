@@ -34,7 +34,7 @@ public class GameController : MonoBehaviour
 
     private Vector3 GetRandomPosition()
     {
-        float x = Random.Range(-2.25f, 2.25f); // Adjust these values to fit your screen
+        float x = Random.Range(-1.87f, 1.87f); // Adjust these values to fit your screen
         float y = Random.Range(-4.5f, 4.1f); // Adjust these values to fit your screen
         return new Vector3(x, y, 0f);
     }

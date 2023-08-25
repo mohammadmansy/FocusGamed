@@ -23,6 +23,6 @@ public class CircleController : MonoBehaviour
         // You can add any other functionality you need here, e.g., incrementing score
         Destroy(gameObject);
         Debug.Log("Clicked");
-        scoreMansger.Instance.AddPoint();
+        scoreManager.Instance.AddPoint();
     }
 }
